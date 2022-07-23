@@ -632,4 +632,32 @@ footer {
 }
 .footer__bottom__list .footer__bottom__list__1 ~ li > a {
   color: #2D2641;
+}
+
+@media only screen and (max-width: 375px) {
+  .footer {
+    width: 100%;
+    padding: 0 0;
+  }
+  .footer__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__top__icons {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+  .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__bottom__list {
+    width: 100%;
+    text-align: center;
+  }
+  .footer__bottom__list__1 {
+    padding-bottom: 36px;
+  }
 }/*# sourceMappingURL=main.css.map */
